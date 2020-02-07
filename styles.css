@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 75vh; 
+}
+
+h1 {
+    color: #FF8900;
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 40px;
+}
+
+.btn-group button {
+    background-color: #3BB2F7; /* Green background */
+    border: 1px solid white; /* Green border */
+    border-radius : 5px;
+    color: white; /* White text */
+    padding: 40px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+    margin-bottom: 40px;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #FF8900;
+    color: white;
+}
