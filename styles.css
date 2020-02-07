@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 2em;
 }
 
 .flex-container {
@@ -20,6 +21,7 @@ h1 {
 }
 
 .btn-group button {
+    font-size: 0.9em;
     background-color: #3BB2F7; /* Green background */
     border: 1px solid white; /* Green border */
     border-radius : 5px;
